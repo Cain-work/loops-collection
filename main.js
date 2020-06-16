@@ -186,6 +186,23 @@ const kata17heading = document.createElement('h1')
 kata17heading.append('Katat 17')
 mainElement.append(kata17heading)
     
-    
+   for(item of sampleArray) {
+    let minArray = Math.min(...sampleArray)
+    let somNum = document.createElement('p')
+    somNum.append(minArray)
+    somNum.className = "Kata 17"
+    mainElement.append(minArray)
+   }
 
+const kata18heading = document.createElement('h1')
+kata18heading.append('Katat 18')
+mainElement.append(kata18heading)
+    
+   for(item of sampleArray) {
+    let maxArray = Math.max(...sampleArray)
+    let somNum = document.createElement('p')
+    somNum.append(maxArray)
+    somNum.className = "Kata 18"
+    mainElement.append(maxArray)
+   }
     
